@@ -1,0 +1,41 @@
+.Date {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 150px;
+  font-size: 45px;
+  align-items: center;
+  color: #434a50;
+}
+
+.Date__num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.Date__string {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.Destination {
+  display: flex;
+  justify-content: center;
+  margin-top: 140px;
+  margin-bottom: 90px;
+  font-size: 30px;
+  color: #434a50;
+}
+
+.background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+
+  z-index: -5;
+}

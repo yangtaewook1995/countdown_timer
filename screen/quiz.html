@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Quiz</title>
+  </head>
+  <body class="quiz-body">
+    <div class="quiz-box">
+      <div class="quiz-question">
+        <h2 class="quiz-question__title">Question Text</h2>
+        <h5 class="quiz-question__description">Description Text</h5>
+      </div>
+
+      <div class="quiz-select">
+        <ul>
+          <li>
+            <input
+              type="radio"
+              id="a"
+              name="answer"
+              class="quiz-select__toggle"
+            />
+            <label class="label-a labelList" for="a">Quiz Select</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              id="b"
+              name="answer"
+              class="quiz-select__toggle"
+            />
+            <label class="label-b labelList" for="b">Quiz Select</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              id="c"
+              name="answer"
+              class="quiz-select__toggle"
+            />
+            <label class="label-c labelList" for="c">Quiz Select</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              id="d"
+              name="answer"
+              class="quiz-select__toggle"
+            />
+            <label class="label-d labelList" for="d">Quiz Select</label>
+          </li>
+        </ul>
+      </div>
+
+      <div class="quiz-submit">
+        <button class="quiz-submit__button">Submit</button>
+      </div>
+    </div>
+    <script src="../js/quiz.js"></script>
+  </body>
+</html>
