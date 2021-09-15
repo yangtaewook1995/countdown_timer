@@ -1,5 +1,7 @@
 @import "countdown.css";
 @import "quiz.css";
+@import "receipt.css";
+@import "todos.css";
 
 .background {
   position: absolute;
@@ -9,4 +11,12 @@
   width: 100%;
 
   z-index: -5;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
